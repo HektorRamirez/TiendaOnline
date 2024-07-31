@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZQIez5QnddEKSVkTXr0/sWammqIjR5LQiNJBWt/bsto=",
+  "Source": "APITiendaOnline",
+  "BasePath": "_content/APITiendaOnline",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
