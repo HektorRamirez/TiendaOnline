@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using TiendaOnline.Models;
 using Xamarin.Forms;
+using Akavache;
+using System.Reactive.Linq;
+using System.Security.Principal;
 
 namespace TiendaOnline.ViewModels
 {
@@ -18,8 +21,9 @@ namespace TiendaOnline.ViewModels
 		public string Nombre { get; set; }
 		public string Precio { get; set; }
 		public string Caducidad { get; set; }
+        public int IdProducto { get; set; }
+        private readonly APIS apis;
 
-		private readonly APIS apis;
 
         #endregion
 
@@ -28,6 +32,7 @@ namespace TiendaOnline.ViewModels
         public AgregarCerealVM()
         {
 			apis = new APIS();
+			EnviarCompraCommand = new Command(async () => await AgregarProducto());
 		}
 
 		#endregion
@@ -45,6 +50,11 @@ namespace TiendaOnline.ViewModels
 		#region Funciones
 		public async Task AgregarProducto()
 		{
+			Nombre = "Cereal de maiz";
+			Precio = "32";
+			Caducidad = "01/Junio/2025";
+			IdProducto = 2;
+
 			if (cantidad == 0)
 			{
 				Cantidad = 1;
@@ -54,15 +64,20 @@ namespace TiendaOnline.ViewModels
 			{
 				var compra = new DetalleCompra
 				{
-					Cantidad = CantidadCompra.ToString(),
+					Cantidad = Cantidad,
 					PrecioCompra = Precio.ToString(),
-					FechaCaducidad = Caducidad.ToString()
+					FechaCaducidad = Caducidad.ToString(),
+					IdProducto = IdProducto
 				};
 				var exito = await apis.EnviarCompras(compra);
 
 				if (exito)
 				{
 					await Application.Current.MainPage.DisplayAlert("Éxito", "Compra enviada correctamente", "OK");
+					int Precio2 = 55;
+					await BlobCache.UserAccount.InsertObject("Producto2", Nombre);
+					await BlobCache.UserAccount.InsertObject("Precio2", Precio2);
+					await BlobCache.UserAccount.InsertObject("Cantidad2", Cantidad);
 				}
 				else
 				{

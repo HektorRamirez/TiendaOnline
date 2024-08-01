@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\views\\productos.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\views\\productos.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\views\\carrito.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\views\\carrito.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\viewmodels\\productosvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\viewmodels\\productosvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\views\\carrito.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\views\\carrito.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\viewmodels\\carritovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\viewmodels\\carritovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\viewmodels\\agregarlechevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\viewmodels\\agregarlechevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\views\\lechecarrito.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\views\\lechecarrito.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|c:\\users\\hekto\\source\\repos\\tiendaonline\\tiendaonline\\tiendaonline\\viewmodels\\apis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26ADC8BA-C4C5-4067-8B65-5C391B894499}|TiendaOnline\\TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\tiendaonline\\viewmodels\\apis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,44 +38,81 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "APIS.cs",
-              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\APIS.cs",
-              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\ViewModels\\APIS.cs",
-              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\APIS.cs",
-              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\ViewModels\\APIS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "DocumentIndex": 3,
+              "Title": "Carrito.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml.cs",
+              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml.cs",
+              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml.cs",
+              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T23:22:07.697Z",
+              "WhenOpened": "2024-08-01T22:06:04.675Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LecheCarrito.xaml",
-              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\LecheCarrito.xaml",
-              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\Views\\LecheCarrito.xaml",
-              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\LecheCarrito.xaml",
-              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\Views\\LecheCarrito.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-31T23:25:50.487Z",
-              "IsPinned": true,
+              "DocumentIndex": 2,
+              "Title": "ProductosVM.cs",
+              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\ProductosVM.cs",
+              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\ViewModels\\ProductosVM.cs",
+              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\ProductosVM.cs",
+              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\ViewModels\\ProductosVM.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T22:15:35.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Productos.xaml",
+              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\Productos.xaml",
+              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\Views\\Productos.xaml",
+              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\Productos.xaml",
+              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\Views\\Productos.xaml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-01T22:14:02.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Carrito.xaml",
+              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml",
+              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml",
+              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml",
+              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\Views\\Carrito.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-01T22:11:22.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AgregarLecheVM.cs",
               "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\AgregarLecheVM.cs",
               "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\ViewModels\\AgregarLecheVM.cs",
               "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\AgregarLecheVM.cs",
               "RelativeToolTip": "TiendaOnline\\TiendaOnline\\ViewModels\\AgregarLecheVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABGAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T23:25:19.802Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-08-01T22:09:35.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarritoVM.cs",
+              "DocumentMoniker": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\CarritoVM.cs",
+              "RelativeDocumentMoniker": "TiendaOnline\\TiendaOnline\\ViewModels\\CarritoVM.cs",
+              "ToolTip": "C:\\Users\\hekto\\source\\repos\\TiendaOnline\\TiendaOnline\\TiendaOnline\\ViewModels\\CarritoVM.cs",
+              "RelativeToolTip": "TiendaOnline\\TiendaOnline\\ViewModels\\CarritoVM.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAxwCgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T22:06:11.145Z",
               "EditorCaption": ""
             }
           ]

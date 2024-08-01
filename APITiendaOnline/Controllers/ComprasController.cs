@@ -27,24 +27,33 @@ namespace APITiendaOnline.Controllers
 		[HttpPost]
 		public async Task<IActionResult> EnviarCompra([FromBody] Compra compra)
 		{
-			var connectionString = _configuration.GetConnectionString("APITiendaOnlineContext");
-			using (SqlConnection conn = new SqlConnection(connectionString))
+			try
 			{
-				using (SqlCommand cmd = new SqlCommand("SP_AgregarAlCarrito", conn))
+				var connectionString = _configuration.GetConnectionString("APITiendaOnlineContext");
+				using (SqlConnection conn = new SqlConnection(connectionString))
 				{
-					cmd.CommandType = CommandType.StoredProcedure;
-					cmd.Parameters.AddWithValue("@Cantidad", compra.Cantidad);
-					cmd.Parameters.AddWithValue("@Precio", compra.Precio);
-					cmd.Parameters.AddWithValue("@FechaCaducidad", compra.FechaCaducidad);
-					cmd.Parameters.AddWithValue("@IdProducto", compra.IdProducto);
+					using (SqlCommand cmd = new SqlCommand("SP_AgregarAlCarrito", conn))
+					{
+						cmd.CommandType = CommandType.StoredProcedure;
+						cmd.Parameters.AddWithValue("@Cantidad", compra.Cantidad);
+						cmd.Parameters.AddWithValue("@Precio", compra.Precio);
+						cmd.Parameters.AddWithValue("@FechaCaducidad", compra.FechaCaducidad);
+						cmd.Parameters.AddWithValue("@IdProducto", compra.IdProducto);
 
-					conn.Open();
-					await cmd.ExecuteNonQueryAsync();
-					conn.Close();
+						conn.Open();
+						await cmd.ExecuteNonQueryAsync();
+						conn.Close();
+					}
 				}
+
+				return Ok(new { message = "Compra enviada correctamente" });
+			}
+			catch (Exception ex) 
+			{
+				return StatusCode(500, new { message = "Ocurrió un error al enviar la compra", error = ex.Message });
 			}
 
-			return Ok(new { message = "Compra enviada correctamente" });
+			
 		}
 }
 

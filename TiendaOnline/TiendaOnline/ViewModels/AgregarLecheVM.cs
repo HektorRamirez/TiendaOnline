@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Akavache;
+using System;
 using System.Collections.Generic;
+using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using TiendaOnline.Models;
 using Xamarin.Forms;
+
 
 namespace TiendaOnline.ViewModels
 {
@@ -18,8 +21,8 @@ namespace TiendaOnline.ViewModels
         public string Nombre { get; set; }
         public string Precio { get; set; }
         public string Caducidad { get; set; }
-		
-		private readonly APIS apis;
+        public int IdProducto { get; set; }
+        private readonly APIS apis;
 
         #endregion
 
@@ -45,9 +48,9 @@ namespace TiendaOnline.ViewModels
 		{
 			Nombre = "Leche";
 			Precio = "25";
-			Caducidad = "25/Mayo/2025";
-
-			if (cantidad == 0)
+			Caducidad = "12/Mayo2025";
+			IdProducto = 1;
+			if (Cantidad == 0)
 			{
 				Cantidad = 1;
 			}
@@ -56,15 +59,20 @@ namespace TiendaOnline.ViewModels
 			{
 				var compra = new DetalleCompra
 				{
-					Cantidad = CantidadCompra.ToString(),
+					Cantidad = Cantidad,
 					PrecioCompra = Precio.ToString(),
-					FechaCaducidad = Caducidad.ToString()
+					FechaCaducidad = Caducidad.ToString(),
+					IdProducto=IdProducto,
 				};
 				var exito = await apis.EnviarCompras(compra);
 
 				if (exito)
 				{
 					await Application.Current.MainPage.DisplayAlert("Éxito", "Compra enviada correctamente", "OK");
+					int Precio1 = 25;
+					await BlobCache.UserAccount.InsertObject("Producto1", Nombre);
+					await BlobCache.UserAccount.InsertObject("Precio1", Precio1);
+					await BlobCache.UserAccount.InsertObject("Cantidad1", Cantidad);
 				}
 				else
 				{

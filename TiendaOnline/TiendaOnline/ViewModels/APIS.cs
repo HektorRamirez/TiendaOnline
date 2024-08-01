@@ -18,7 +18,7 @@ namespace TiendaOnline.ViewModels
 		#region Constructor
 		public APIS()
         {
-			_httpClient = new HttpClient { BaseAddress = new Uri("https://localhost:44323/api/agregarCompra") };
+			_httpClient = new HttpClient { BaseAddress = new Uri("https://localhost/api/agregarCompra") };
 		}
 		#endregion
 
@@ -29,7 +29,7 @@ namespace TiendaOnline.ViewModels
 			{
 				var json = JsonConvert.SerializeObject(compra);
 				var content = new StringContent(json, Encoding.UTF8, "application/json");
-				var response = await _httpClient.PostAsync("api/compras", content);
+				var response = await _httpClient.PostAsync("api/agregarCompra", content);
 
 				return response.IsSuccessStatusCode;
 			}

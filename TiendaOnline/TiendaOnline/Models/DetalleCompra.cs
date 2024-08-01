@@ -7,8 +7,9 @@ namespace TiendaOnline.Models
 {
 	public class DetalleCompra
 	{
-        public string Cantidad { get; set; }
+        public int Cantidad { get; set; }
         public string PrecioCompra { get; set; }
         public string FechaCaducidad { get; set; }
+        public int IdProducto { get; set; }
     }
 }

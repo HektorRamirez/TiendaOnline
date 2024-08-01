@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:TiendaOnline.ViewModels"
+             x:Class="TiendaOnline.Views.Carrito">
+    
+    <ContentPage.BindingContext>
+        <local:CarritoVM/>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Label Text="La suma de los precios es: " 
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="Black"/>
+
+        <Label Text="{Binding Suma}" 
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               TextColor="Red"/>
+
+        <Button Text="Calcular Suma" 
+                Command="{Binding CalcularSumaCommand}"
+                TextColor="Black"/>
+    </StackLayout>
+</ContentPage>

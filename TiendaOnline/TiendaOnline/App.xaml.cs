@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TiendaOnline.Views;
+using Akavache;
 namespace TiendaOnline
 {
 	public partial class App : Application
@@ -9,6 +10,7 @@ namespace TiendaOnline
 		public App()
 		{
 			InitializeComponent();
+			BlobCache.ApplicationName = "TiendaOnline";
 			MainPage = new NavigationPage(new Productos());
 		}
 

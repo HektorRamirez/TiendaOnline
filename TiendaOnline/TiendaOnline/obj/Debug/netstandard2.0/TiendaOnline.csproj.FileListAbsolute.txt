@@ -13,7 +13,9 @@ C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\net
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\TiendaOnline.AssemblyInfoInputs.cache
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\TiendaOnline.AssemblyInfo.cs
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\TiendaOnline.csproj.CoreCompileInputs.cache
+C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\TiendaOnline.sourcelink.json
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\TiendaOnline.dll
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\refint\TiendaOnline.dll
 C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\TiendaOnline.pdb
+C:\Users\hekto\source\repos\TiendaOnline\TiendaOnline\TiendaOnline\obj\Debug\netstandard2.0\Views\Carrito.xaml.g.cs
